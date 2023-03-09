@@ -286,8 +286,10 @@
 <section id="location" class="container">
 <h3 class="text-center slideanim">Location</h3>
 <!-- Add Google Maps -->
-<div id="googleMap" class="slideanim"></div>
-<script>
+  <div id="googleMap" class="slideanim">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46376.97878892193!2d6.424750907943008!3d43.40710068112279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ceb2c2aea856e3%3A0x763f7177bfd24745!2s83550%20Vidauban!5e0!3m2!1sfr!2sfr!4v1678301441498!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+</div>
+<!-- <script>
 function myMap() {
 var myCenter = new google.maps.LatLng(53.3498,-6.2603);
 var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
@@ -295,8 +297,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 var marker = new google.maps.Marker({position:myCenter});
 marker.setMap(map);
 }
-</script>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46376.97878892193!2d6.424750907943008!3d43.40710068112279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ceb2c2aea856e3%3A0x763f7177bfd24745!2s83550%20Vidauban!5e0!3m2!1sfr!2sfr!4v1678301441498!5m2!1sfr!2sfr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</script> -->
 <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlW-uV2f7rzdz0e_ZADMv5kTKH8wXxB50&callback=myMap"></script> -->
 <!--
 To use this code on your website, get a free API key from Google.
