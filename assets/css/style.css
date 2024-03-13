@@ -118,7 +118,7 @@ body {
       color: #000;
   }
   
-   .row.display-flex {
+.row.display-flex {
   display: flex;
   flex-wrap: wrap;
 }
