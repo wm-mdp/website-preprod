@@ -471,9 +471,42 @@ output {
 
 .map {
   width: 90%;
-  height: 90%;
+  height: 480px;
   display: block;
   margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.address {
+  font-size: 1.1rem;
+}
+
+.phone {
+  font-size: 1.1rem;
+}
+
+.pizza-type {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.pizza-entry {
+  padding: 0.5rem;
+}
+
+.pizza-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.pizza-price {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.pizza-desc {
+  font-style: italic;
 }
 
 iframe {
@@ -499,7 +532,7 @@ progress {
 }
 
 .lead-tab {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 300;
   margin-left: 2rem;
 }
