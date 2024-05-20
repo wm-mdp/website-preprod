@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 13, 110, 253;
+  --bs-primary-rgb: 222, 41,22;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -469,6 +469,7 @@ output {
   display: inline-block;
 }
 
+
 .map {
   width: 90%;
   height: 480px;
@@ -532,9 +533,9 @@ progress {
 }
 
 .lead-tab {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 300;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
 .display-1 {
@@ -2891,7 +2892,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #0d6efd;
+  --bs-btn-bg: #de2916;
   --bs-btn-border-color: #0d6efd;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #0b5ed7;
@@ -8171,7 +8172,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  --bs-bg-opacity: 1;
+  --bs-bg-opacity: 0.85;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
