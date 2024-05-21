@@ -42,6 +42,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --mdp-light: #d53737;
+  --mdp-dark: #000000;
   --bs-primary-rgb: 222, 41,22;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -497,12 +499,13 @@ output {
 }
 
 .pizza-name {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  text-align: left;
   font-weight: 500;
 }
 
 .pizza-price {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -528,14 +531,14 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 300;
 }
 
 .lead-tab {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 300;
-  margin-left: 1.5rem;
+  /* margin-left: 1.5rem; */
 }
 
 .display-1 {
@@ -10881,6 +10884,11 @@ header {
 }
 
 section {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+section.followup {
+  padding-top: 0rem;
+  padding-bottom: 5rem;
 }
