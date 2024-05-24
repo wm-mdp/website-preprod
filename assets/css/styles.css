@@ -93,6 +93,12 @@
   }
 }
 
+.bg-image{
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -10881,6 +10887,10 @@ html {
 header {
   padding-top: 9.5rem;
   padding-bottom: 6rem;
+}
+
+.img-header {
+  max-width: 120px;
 }
 
 section {
