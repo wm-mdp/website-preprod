@@ -42,9 +42,11 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --mdp-red: #d53737;
   --mdp-light: #d53737;
   --mdp-dark: #000000;
-  --bs-primary-rgb: 222, 41,22;
+  --bs-primary-rgb: 0, 0, 0;
+  --bs-primary2-rgb: 222, 41,22;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -8181,7 +8183,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  --bs-bg-opacity: 0.85;
+  --bs-bg-opacity: 0.75;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
@@ -10890,7 +10892,7 @@ header {
 }
 
 .img-header {
-  max-width: 120px;
+  max-width: 150px;
 }
 
 section {
