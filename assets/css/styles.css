@@ -8182,9 +8182,13 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
 }
 
+.bg-color {
+  background-color: rgba(214,11,0, 1) !important;;
+}
+
 .bg-primary {
-  --bs-bg-opacity: 0.75;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  --bs-bg-opacity: 0.8;
+  background-color: rgba(214,11,0, var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
