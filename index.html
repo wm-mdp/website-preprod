@@ -343,12 +343,14 @@
                         <div class="phone">📞 <a href="tel:0768249091">07.68.24.90.91</a></div>
                         <!-- Add Google Maps -->
                         <div id="googleMap" class="map">
-                          <!-- The callback parameter is required, so we use console.debug as a noop -->
-                          <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT8CKmG2WWCP5zDVFBF3O7OsUsWNpAX0E&callback=console.debug&libraries=maps,marker&v=beta&signature=BC2QGJvyNwfkfSeS46-WNNF2eeg=">
-                          </script>
-                          <gmp-map center="43.759246826171875,4.052690505981445" zoom="14" map-id="mdp_map">
-                            <gmp-advanced-marker position="43.759246826171875,4.052690505981445" title="My location"></gmp-advanced-marker>
-                          </gmp-map>
+                          <iframe
+                          width="100%"
+                          height="100%"
+                          frameborder="0" style="border:0"
+                          referrerpolicy="no-referrer-when-downgrade"
+                          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBT8CKmG2WWCP5zDVFBF3O7OsUsWNpAX0E&q=Maison+Pizzas,Saussines+France"
+                          allowfullscreen>
+                        </iframe>
                         </div>
                     </div>
                 </div>
